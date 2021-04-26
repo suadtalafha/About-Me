@@ -1,0 +1,12 @@
+h1 {
+    text-shadow: 5px 5px red ;
+}
+
+
+
+.colum {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    width: max-content;
+  }
