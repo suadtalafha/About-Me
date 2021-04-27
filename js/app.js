@@ -5,11 +5,12 @@ console.log(username)
 alert("welocom to our site "+username)
 
 let userQ1=prompt("Do you think my name is Suad ?").toLowerCase();
-
+let score=0
 switch(userQ1){
     case "yes":
         console.log("greet")
         alert("greet")
+        score=score+1
         break;
         case "no" :
         console.log("not true");
@@ -26,6 +27,7 @@ switch(userQ2){
     case "yes":
         console.log("greet")
         alert("You are right")
+        score=score+1
         break;
         case "no" :
         console.log("not true");
@@ -43,6 +45,7 @@ switch(userQ3){
     case "yes":
         console.log("greet")
         alert("Of course")
+        score=score+1
         break;
         case "no" :
         console.log("not true");
@@ -63,7 +66,8 @@ switch(userQ4){
         break;
         case "no" :
         console.log("not true");
-        alert("Of course no, who did that")
+        alert("Of course no, who did that");
+        score=score+1
         break
         default:
             console.log("you must answer yes/no")
@@ -75,7 +79,8 @@ let userQ5=prompt("Do you think I like to travel ?").toLowerCase();
 switch(userQ5){
     case "yes":
         console.log("true")
-        alert("Who did not")
+        alert("Who did not");
+        score=score+1
         break;
         case "no" :
         console.log("not true");
@@ -86,3 +91,96 @@ switch(userQ5){
 }
 
 alert ("Thank you for joining us "+ username)
+
+
+let myAge=Number(prompt("Guiss my age"))
+
+for(let i=0;i<4;i++){
+if (myAge==23){
+    alert("great");
+    score=score+1
+    break;
+
+}else if (i==3){
+    alert("The correct answer is 23")
+    break;
+}
+else if
+     (myAge<23)
+     
+     {alert("too low");
+    
+ myAge=Number(prompt("Guess my age"));
+    
+    
+    }
+
+
+     else if (myAge>23){alert("too high")
+         
+ myAge=Number(prompt("Guess my age"));
+    
+    }}
+
+    let cites =['amman','istanbul','paris','london'];
+    let q1 = prompt("What is my favourit city?");
+    
+    for ( let i = 1; i<6;i++){
+    
+    
+        if (cites.includes(q1)){
+            alert("Correct");
+            score=score+1
+            
+          break;
+
+        } else {
+            alert("Noo");
+            q1 =prompt("What is my favourit city");
+        }
+    }
+    alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london ')
+
+    alert("Your score is " + score)
+
+    /*let cites =["amman","istanbul","paris","london"].tolowercase;
+    let q1 =prompt("What is my favourit city");
+    let flag= false;
+    for (let i=0; i<= cites.length ;i++)
+    
+    {
+        if (q1===cites[i]){
+            alert("Corect")
+            flag = True ;
+          break;
+
+        } else if (flag=== false) {
+            alert("Noo")
+            q1 =prompt("What is my favourit city");
+        }
+    }*/
+
+    
+/*let myAge=Number(prompt("guess my age"));
+for(let i=0;i<4;i++){
+if (myAge==24) { alert("correct")
+break;
+
+}else if (i == 3 ){
+    alert ('the corrict answer is 24')
+break;
+}
+
+else if (myAge<24) {
+    alert("too low");
+     myAge=Number(prompt("guess my age"));
+
+
+} else if (myAge>24){ 
+    alert("too high");       
+myAge=Number(prompt("guess my age"));
+
+}
+
+console.log (i)
+}*/
