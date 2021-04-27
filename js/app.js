@@ -122,66 +122,28 @@ else if
     
     }}
 
+    
+
     let cites =['amman','istanbul','paris','london'];
     let q1 = prompt("What is my favourit city?");
+    let flag = false;
+    for ( let i = 0; i< cites.length;i++){
     
-    for ( let i = 1; i<6;i++){
     
-    
-        if (cites.includes(q1)){
-            alert("Correct");
-            score=score+1
-            
-          break;
-
-        } else {
-            alert("Noo");
-            q1 =prompt("What is my favourit city");
-        }
-    }
-    alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london ')
-
-    alert("Your score is " + score)
-    
-
-    /*let cites =["amman","istanbul","paris","london"].tolowercase;
-    let q1 =prompt("What is my favourit city");
-    let flag= false;
-    for (let i=0; i<= cites.length ;i++)
-    
-    {
         if (q1===cites[i]){
-            alert("Corect")
-            flag = True ;
-          break;
-
-        } else if (flag=== false) {
-            alert("Noo")
-            q1 =prompt("What is my favourit city");
-        }
-    }*/
-
+            
+            alert("Coreect");
+           flag = true;
+            score=score+1
+        
+            break;
+            
+        } } if(flag === false) {
+            for (let i =0;i<5;i++){
+            alert("Noo");
+            q1 = prompt("What is my favourit city?");
     
-/*let myAge=Number(prompt("guess my age"));
-for(let i=0;i<4;i++){
-if (myAge==24) { alert("correct")
-break;
+        }}
+        alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london ')
 
-}else if (i == 3 ){
-    alert ('the corrict answer is 24')
-break;
-}
-
-else if (myAge<24) {
-    alert("too low");
-     myAge=Number(prompt("guess my age"));
-
-
-} else if (myAge>24){ 
-    alert("too high");       
-myAge=Number(prompt("guess my age"));
-
-}
-
-console.log (i)
-}*/
+        alert("Your score is " + score)
