@@ -142,6 +142,7 @@ else if
     alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london ')
 
     alert("Your score is " + score)
+    
 
     /*let cites =["amman","istanbul","paris","london"].tolowercase;
     let q1 =prompt("What is my favourit city");
