@@ -1,5 +1,5 @@
 'use strict'
-
+//use
 let username=prompt("What is your name")
 console.log(username)
 alert("welocom to our site "+username)
