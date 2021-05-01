@@ -124,7 +124,7 @@ else if
 
     
 
-    let cites =['amman','istanbul','paris','london'];
+    let cites =['amman','istanbul','paris','london '+' moroco '+' roma '];
     let q1 = prompt("What is my favourit city?");
     let flag = false;
     for ( let i = 0; i< cites.length;i++){
@@ -138,12 +138,24 @@ else if
         
             break;
             
-        } } if(flag === false) {
-            for (let i =0;i<5;i++){
-            alert("Noo");
+        } } 
+        if(flag === false){ 
+            for (let i =0;i<5;i++) {
+            alert("Noo") ;
             q1 = prompt("What is my favourit city?");
+            
+            
     
-        }}
-        alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london ')
+        }
+    
+    
+    
+    
+    
+    }
+        alert("The correct answer " + ' amman '+' istanbul '+' paris '+' london  '+' moroco '+'roma ')
 
         alert("Your score is " + score)
+       
+
+ 

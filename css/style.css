@@ -1,13 +1,37 @@
 h1 {
     text-shadow: 5px 5px red ;
 }
+body{
+
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQoq5WU01losmxwUxbyLUY4gwh5bOCjfVtw&usqp=CAU.jpg') ;
+background-attachment: fixed;
+background-position: right;
+background-repeat: repeat-y;
+}
+
+ul {
+
+  background-color: rgb(112, 19, 124);
+  padding: 20px;
+  
+    list-style-image: url('');
+
+}
+ul li{
+  margin: 5px;
+  background-image: linear-gradient(rgb(236, 203, 12) 10%, rgb(65, 116, 65) 85%, blue 90%);
+}
 
 
 
-.colum {
+
+img {
     
-    width:200%;
+    width:35%;
     padding: 5px;
+    border-radius: 50%;
+
+    
     
   }
 
@@ -19,10 +43,7 @@ h1 {
     padding: 20px;
   }
   
-  ul {
-    background: #3399ff;
-    padding: 20px;
-  }
+  
   
   ol li {
     background: #ffe5e5;
@@ -30,7 +51,5 @@ h1 {
     margin-left: 35px;
   }
   
-  ul li {
-    background: #cce5ff;
-    margin: 5px;
-  }
+
+  
